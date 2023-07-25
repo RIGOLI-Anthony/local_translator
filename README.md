@@ -25,5 +25,6 @@ Here we want to use at first the model from Whisper to get the audio and to tran
 There's two possibilities:
 - If the whole interface is on the app,  the communication will be through the phone and not the case. It means that the case will be much minimalist with no speaker and no mic.
 - If the app is only for modifying the languages and checking the log, we want to design a case with a speaker and a mic. Such device will be a little more energy consuming so we might also take it into account when using the battery. This configuration will also need a button for beginning the translation.
+  
 In the end what's needed whatever the possibility will be: a power button, the battery, a place in the case to setup the charging, the rasberry pi and an SDcard
 
