@@ -32,4 +32,5 @@ Finally the last part of the project will be designing the app to use on the pho
 - Typing his own text to put in the translator instead of speaking directly
 - Disabling the audio answer to only check for the log with the text answer
 - Do both (same use as the google translator but offline there)
+  
 Since the aim is to not store anything on the phone, everything will be going through the local network and what's on the SDcard (the answer as a text because we do not keep the different audio with the data stream) should be deleted via a crontab setup that will activate at a certain frequency (users should be able to modify it in the settings). 
