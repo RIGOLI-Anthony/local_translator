@@ -26,5 +26,10 @@ There's two possibilities:
 - If the whole interface is on the app,  the communication will be through the phone and not the case. It means that the case will be much minimalist with no speaker and no mic.
 - If the app is only for modifying the languages and checking the log, we want to design a case with a speaker and a mic. Such device will be a little more energy consuming so we might also take it into account when using the battery. This configuration will also need a button for beginning the translation.
   
-In the end what's needed whatever the possibility will be: a power button, the battery, a place in the case to setup the charging, the rasberry pi and an SDcard
+In the end what's needed will be primarily: a power button, the battery, a place in the case to setup the charging, the rasberry pi and an SDcard
 
+Finally the last part of the project will be designing the app to use on the phone. It should be user friendly with a way to connect easily to the device and to change the different languages, the origin and the target one like any translators. The user would also be able to check for the answer also as a text and give him a possibility to cut the pipeline by doing the few possibilities below:
+- Typing his own text to put in the translator instead of speaking directly
+- Disabling the audio answer to only check for the log with the text answer
+- Do both (same use as the google translator but offline there)
+Since the aim is to not store anything on the phone, everything will be going through the local network and what's on the SDcard (the answer as a text because we do not keep the different audio with the data stream) should be deleted via a crontab setup that will activate at a certain frequency (users should be able to modify it in the settings). 
